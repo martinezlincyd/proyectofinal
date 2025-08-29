@@ -1,0 +1,9 @@
+<?php
+$servidor="localhost";
+$usuario="root";
+$password="";
+$bdd="banco";
+$conexion=mysqli_connect($servidor,$usuario,$password);
+mysqli_select_db($conexion,$bdd);
+mysqli_set_charset($conexion,"utf8");
+?>
